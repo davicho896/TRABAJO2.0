@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/AppTest2/FuncionesSoap?WSDL" uri="xml-resources/web-service-references/FuncionesSoap_1/wsdl/localhost_8080/AppTest2/FuncionesSoap.wsdl"/>
+    <system systemId="http://localhost:8080/AppTest2/FuncionesSoap?xsd=1" uri="xml-resources/web-service-references/FuncionesSoap_1/wsdl/localhost_8080/AppTest2/FuncionesSoap.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ProyectoSOAPserver/FuncionesSOAP?WSDL" uri="xml-resources/web-service-references/FuncionesSoap/wsdl/localhost_8080/ProyectoSOAPserver/FuncionesSOAP.wsdl"/>
+    <system systemId="http://localhost:8080/ProyectoSOAPserver/FuncionesSOAP?xsd=1" uri="xml-resources/web-service-references/FuncionesSoap/wsdl/localhost_8080/ProyectoSOAPserver/FuncionesSOAP.xsd_1.xsd"/>
+</catalog>

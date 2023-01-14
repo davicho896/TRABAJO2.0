@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.0 (wsit240-7e98ff4; 2017-08-03T21:19:54+0200) JAXWS-RI/2.3.0 JAXWS-API/2.3.0 JAXB-RI/2.3.0 JAXB-API/2.3.0 svn-revision#unknown. --><xs:schema xmlns:tns="http://sv/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://sv/">
+
+<xs:element name="Conversion_Euro_Dolar" type="tns:Conversion_Euro_Dolar"/>
+
+<xs:element name="Conversion_Euro_DolarResponse" type="tns:Conversion_Euro_DolarResponse"/>
+
+<xs:element name="Potencia" type="tns:Potencia"/>
+
+<xs:element name="PotenciaResponse" type="tns:PotenciaResponse"/>
+
+<xs:element name="Primo" type="tns:Primo"/>
+
+<xs:element name="PrimoResponse" type="tns:PrimoResponse"/>
+
+<xs:element name="diccionario" type="tns:diccionario"/>
+
+<xs:element name="diccionarioResponse" type="tns:diccionarioResponse"/>
+
+<xs:element name="holabb" type="tns:holabb"/>
+
+<xs:element name="holabbResponse" type="tns:holabbResponse"/>
+
+<xs:complexType name="holabb">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="holabbResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Potencia">
+<xs:sequence>
+<xs:element name="base" type="xs:double"/>
+<xs:element name="exponente" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="PotenciaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="diccionario">
+<xs:sequence>
+<xs:element name="palabra" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="diccionarioResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Conversion_Euro_Dolar">
+<xs:sequence>
+<xs:element name="valor" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Conversion_Euro_DolarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Primo">
+<xs:sequence>
+<xs:element name="numero" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="PrimoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
